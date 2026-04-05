@@ -26,8 +26,8 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.getenv(8136812762:AAGl7riOmQ0r-cIh4Q9Tm6O18hDvxc8Fyo8)
-CHAT_ID = os.getenv(1012459697)  # твой Telegram chat_id
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 # Диапазон ID задач на math-ege.sdamgia.ru
 PROBLEM_ID_MIN = 1000
